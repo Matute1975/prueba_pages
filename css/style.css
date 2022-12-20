@@ -1,0 +1,35 @@
+body{
+    background-color: #3333;
+    background-attachment: fixed;/*con esta propiedad hago que el color (color) quede fijo (fixed)*/
+    background-size: cover;/*Me expande el video a toda la caja (cover)*/
+}
+.videoBackground{
+    position: fixed;/*habilito la posicion para posicionarlo*/
+    right: 0;/*lo posiciono todo a la derecha*/
+    bottom: 0;/*lo posiciono todo hacia abajo*/
+    width: 100%;/*le fijo el ancho del 100% de la pantalla*/
+    z-index: -15;/*lo pongo detras de mi <h1> y <p>*/
+}
+h1{
+    position: absolute;/*con posicion absolute, lo saco de que vaya un elemnto debajo de otro y lo posiciono con left y bottom*/
+    color: white;
+    letter-spacing: 3px;/*aplica espaciado a las letras*/
+    bottom: 1%; /*lo posiciono abajo de todo en la pantalla*/
+    left: 5%;
+    font-size: 36px;
+    text-align: left;
+
+}
+span{
+        color: white;
+        font-size: 16px;
+}
+.miIcono{
+    font-size: 50px;
+    color: red;
+    /*aca le defino el estilo al icono que traje desde bootstrap*/
+}
+.miIcono:hover{
+    color: black;
+    /*aca le defino el estilo al icono que traje desde bootstrap para que cambie a negro cuando el mouse pasa sobre el.*/
+}
